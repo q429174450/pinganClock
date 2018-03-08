@@ -7,10 +7,9 @@ apply plugin: 'eclipse-wtp'
 
 version = '1.0.0'
 group = 'com.paic.arch.interviews.clock'
-compileJava {
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
-}
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
 
 repositories {
     jcenter()
